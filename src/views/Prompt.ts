@@ -1,5 +1,5 @@
 import prompts from 'prompts';
-import { plateauController } from '../controller/PlateauController';
+import { plateauController } from '../controllers/PlateauController';
 
 const plateauSizeRegex: RegExp = /(^\d{1,}) (\d{1,})$/;
 const roverDeployRegex: RegExp = /(^\d{1,}) (\d{1,}) [NESW]$/;

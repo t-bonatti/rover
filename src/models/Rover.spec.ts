@@ -1,6 +1,6 @@
 import { Plateau } from './Plateau';
 import { Direction, Rover } from './Rover';
-import testCases from '../../test/rover-test-cases.json';
+import testCases from '../../tests/rover-test-cases.json';
 
 describe('Rover', () => {
   const plateau = new Plateau(4, 4);
