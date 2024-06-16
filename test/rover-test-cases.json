@@ -1,0 +1,47 @@
+[
+  {
+    "input": {
+      "positionX": 0,
+      "positionY": 0,
+      "direction": "N",
+      "instructions": "MMRMRMLMMMLMMM"
+    },
+    "expectResult": "4 4 N"
+  },
+  {
+    "input": {
+      "positionX": 1,
+      "positionY": 2,
+      "direction": "N",
+      "instructions": "LMLMLMLMM"
+    },
+    "expectResult": "1 3 N"
+  },
+  {
+    "input": {
+      "positionX": 3,
+      "positionY": 3,
+      "direction": "E",
+      "instructions": "MRRMMRMRRM"
+    },
+    "expectResult": "2 3 S"
+  },
+  {
+    "input": {
+      "positionX": 0,
+      "positionY": 0,
+      "direction": "N",
+      "instructions": "RRRRM"
+    },
+    "expectResult": "0 1 N"
+  },
+  {
+    "input": {
+      "positionX": 0,
+      "positionY": 0,
+      "direction": "N",
+      "instructions": "LLLLM"
+    },
+    "expectResult": "0 1 N"
+  }
+]
